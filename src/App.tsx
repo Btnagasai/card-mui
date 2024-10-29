@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import OutlinedCard from './Outlinedcard';
-
+import Cardadd from './Cardadd';
 // Create a theme instance with 'Public Sans'
 const theme = createTheme({
   typography: {
@@ -11,9 +11,10 @@ const theme = createTheme({
 function App() {
   return (
     <div>
-    <ThemeProvider theme={theme}>
+    {/* <ThemeProvider theme={theme}>
      <OutlinedCard/>
-    </ThemeProvider>
+    </ThemeProvider> */}
+    <Cardadd/>
     </div>
   );
 }
